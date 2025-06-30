@@ -1,0 +1,9 @@
+cbor2
+regex
+ftfy
+pybase64
+numpy
+opencv-python
+open3d
+paho-mqtt
+azure-storage-blob
