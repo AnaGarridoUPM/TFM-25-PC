@@ -38,6 +38,6 @@ The rename_files.py is used to rename all the files to have the requied name's s
     - build again the image 
 - name tag. If this tag is not defined, a random one is created. 
 ```python
-docker pull anagarridoupm/tfm25:edge 
-docker run --rm -it anagarridoupm/tfm25:edge --name name_of_container
+docker pull anagarridoupm/tfmtestserverincpu2425junexp:edge 
+docker run --rm -it anagarridoupm/tfmtestserverincpu2425junexp:edge --name name_of_container
 ```

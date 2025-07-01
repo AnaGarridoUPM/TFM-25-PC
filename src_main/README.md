@@ -11,14 +11,14 @@ Structure of this directory:
 ### Docker image
 If not GPU, error 
 ```python
-docker pull anagarridoupm/tfm25:server
-docker run -d --name name_of_container anagarridoupm/tfm25:server
+docker pull anagarridoupm/tfmtestserverincpu2425junexp:servergpu2
+docker run -d --name name_of_container anagarridoupm/tfmtestserverincpu2425junexp:servergpu2
 ```
 
 CPU 
 ```python
-docker pull anagarridoupm/tfm25:servercpu
-docker run -d --name name_of_container anagarridoupm/tfm25:servercpu
+docker pull anagarridoupm/tfmtestserverincpu2425junexp:servercpu2
+docker run -d --name name_of_container anagarridoupm/tfmtestserverincpu2425junexp:servercpu2
 ```
   
 ### Run in local 
