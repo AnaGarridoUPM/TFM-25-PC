@@ -9,10 +9,10 @@ Structure of this directory:
   
 ## Installation 
 ### Docker image
-If not GPU, error 
+If not GPU, error. NVIDIA Container toolkit. 
 ```python
 docker pull anagarridoupm/tfmtestserverincpu2425junexp:servergpu2
-docker run -d --name name_of_container anagarridoupm/tfmtestserverincpu2425junexp:servergpu2
+docker run --gpu all -it anagarridoupm/tfmtestserverincpu2425junexp:servergpu2
 ```
 
 CPU 
