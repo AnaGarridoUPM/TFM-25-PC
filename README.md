@@ -31,3 +31,7 @@ sudo usermod -aG docker $USER
 ```
 
 If GPU available, NVIDIA container toolkit is needed.
+
+### (?)
+first init server, then the edge and lastly to see the results, the viewer. 
+Third-party services: MQTT broker, Azure storage (based on subscriptions)
